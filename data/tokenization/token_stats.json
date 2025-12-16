@@ -1,0 +1,1685 @@
+[
+  {
+    "file": "tokenized_test_bpe.csv",
+    "path": "HPC pipeline\\data\\splits\\tokenized_test_bpe.csv",
+    "n_rows": 1000,
+    "token_count": {
+      "n": 1000,
+      "mean": 7.695000000000004,
+      "std": 7.074604230981765,
+      "min": 2.0,
+      "max": 43.0,
+      "p50": 5.0,
+      "p90": 19.0,
+      "p99": 31.0
+    },
+    "equation_chars": {
+      "n": 1000,
+      "mean": 23.263999999999978,
+      "std": 21.201174349403246,
+      "min": 3.0,
+      "max": 126.0,
+      "p50": 17.0,
+      "p90": 57.0,
+      "p99": 91.0
+    },
+    "avg_chars_per_token": 3.0232618583495734,
+    "vocab_size": 727,
+    "unique_tokens_per_equation": {
+      "n": 1000,
+      "mean": 7.546999999999993,
+      "std": 6.751694333748852,
+      "min": 2.0,
+      "max": 43.0
+    },
+    "corr_token_vs_eq_chars": 0.9707660841835083,
+    "corr_token_vs_complexity": 0.7045997462052094,
+    "by_complexity": [
+      {
+        "complexity": 1,
+        "n": 201,
+        "avg_tokens": 2.825870646766169
+      },
+      {
+        "complexity": 2,
+        "n": 208,
+        "avg_tokens": 4.605769230769231
+      },
+      {
+        "complexity": 3,
+        "n": 197,
+        "avg_tokens": 5.634517766497462
+      },
+      {
+        "complexity": 4,
+        "n": 187,
+        "avg_tokens": 5.347593582887701
+      },
+      {
+        "complexity": 5,
+        "n": 207,
+        "avg_tokens": 19.608695652173914
+      }
+    ],
+    "top_k_longest_by_tokens": [
+      {
+        "token_len": 43,
+        "eq_len": 126,
+        "row_id": 3125,
+        "equation_preview": "R=s_net+F_2^n*phi+(k+E_min+u+Q)^1/2-(2-G-s*sigma-v_0^-)/(3+N_A+lambda_1^n-a_i^2)+(2+G+h_1+alpha_avg^3)/(4/3-h-m_f^circ-lambda)"
+      },
+      {
+        "token_len": 38,
+        "eq_len": 125,
+        "row_id": 5645,
+        "equation_preview": "x=sum_n=1^N(2/3+pi+y_min+delta_i+delta_max)-(pi*x_rms*g+mu_avg)/(4+alpha_f)+(gamma_f+B_1*sigma_avg)/(T_rms)-1/2+A*P_i-A_net^3"
+      },
+      {
+        "token_len": 37,
+        "eq_len": 103,
+        "row_id": 10,
+        "equation_preview": "I=2+G*y-t*I_2+sum_n=1^inf(pi+x+a_f+A_1)+(c*alpha_min^n+tau^circ)/(e*L)-(pi-E_max)/(h*T_net+A_min*W_max)"
+      },
+      {
+        "token_len": 37,
+        "eq_len": 112,
+        "row_id": 1680,
+        "equation_preview": "B_0=exp(3+k+h+delta_max+d)+sum_n=0^inf(1+h+u+epsilon_0+A)-(pi-w*theta-r)/(c+d^**omega_max*s)-(4/3+G+u+a)/(r_min)"
+      },
+      {
+        "token_len": 35,
+        "eq_len": 115,
+        "row_id": 6800,
+        "equation_preview": "p_min=(e+Q+psi^+)^-1-(4/3*N_A-delta+t-alpha)/(2+N_A+psi_avg)+int_a^b(1/3+c+T_max+V^2+phi_avg)dx+(4/3+N_A+theta^2)^2"
+      },
+      {
+        "token_len": 34,
+        "eq_len": 91,
+        "row_id": 855,
+        "equation_preview": "g=1+I_2-u^n-b_i+(c_f-alpha*C)/(c-alpha+I^+)+(1/3+pi+c_max)^-1+(1+N_A-C*B^2)/(2*c+y_2-sigma)"
+      },
+      {
+        "token_len": 33,
+        "eq_len": 83,
+        "row_id": 8390,
+        "equation_preview": "a=ln(1/2+x+P+F_avg)-(e-x_i+epsilon)/(2*R+v)-(c+p_2+A)^2-(2-I_0-s-z)/(3-c-u_2+L+F_1)"
+      },
+      {
+        "token_len": 33,
+        "eq_len": 96,
+        "row_id": 9625,
+        "equation_preview": "P_1=(Q_0+gamma+r)^2-(1/3+r_2*Q_rms+P)/(c-d+omega*epsilon_rms)-sin(N_A-n_i^2)+(2+k+C+psi_max+R)^n"
+      },
+      {
+        "token_len": 32,
+        "eq_len": 83,
+        "row_id": 4785,
+        "equation_preview": "h=(1/2+e+x_rms+c^circ)^n+tau_i^2+(A*gamma_i-phi_1)/(e-beta-y)+(R-s-E)/(v+A-delta_0)"
+      },
+      {
+        "token_len": 32,
+        "eq_len": 103,
+        "row_id": 9790,
+        "equation_preview": "n_avg=(1/3+k*n_net^-1*v_f)/(G+z-Q_max)-(1-h_f)/(1/2*R-epsilon-mu+h_rms)-(c+I_i^circ+s_net+lambda_f)^1/2"
+      },
+      {
+        "token_len": 31,
+        "eq_len": 79,
+        "row_id": 6470,
+        "equation_preview": "y=(2/3+h+B_0+tau_max)^n+1-exp(4+R+p_f+z+tau_2)-(4+k+a^circ-g^-)/(c+b*E-Q_avg^2)"
+      },
+      {
+        "token_len": 31,
+        "eq_len": 83,
+        "row_id": 4730,
+        "equation_preview": "I_min=n+y+(h*V)/(N_A+g_net^2*F_rms)+(2+R+gamma_i^-1+psi+a^-1)^2+(C^2)/(k-R*L_0^+*d)"
+      },
+      {
+        "token_len": 31,
+        "eq_len": 89,
+        "row_id": 6710,
+        "equation_preview": "g=sum_n=0^n(1/3+c+s)+(pi-h-T)/(2/3-e-v-phi^++u)+(t_0*lambda*I)/(3+c+phi_min*P)+pi+Q-delta"
+      },
+      {
+        "token_len": 30,
+        "eq_len": 82,
+        "row_id": 5960,
+        "equation_preview": "V=sqrt(2+B_avg+r_i+s^-1)+(e+v-V_f*R)/(v)-cos(v+phi_avg+beta_max)-(h+d)/(3+e+theta)"
+      },
+      {
+        "token_len": 30,
+        "eq_len": 84,
+        "row_id": 7410,
+        "equation_preview": "p_f=int(k+omega_1^circ+z+P_f)dV-(k-I_2-E+phi_rms)/(e*beta+h*theta)+ln(4-R-a_f+Q_rms)"
+      },
+      {
+        "token_len": 30,
+        "eq_len": 79,
+        "row_id": 1155,
+        "equation_preview": "Q=(1/2*k+s_rms^+)/(v_min^2+n+tau_net^-1)+1/2+h+a+a+n+(phi_max^2*p_i^*)/(pi+c^*)"
+      },
+      {
+        "token_len": 30,
+        "eq_len": 78,
+        "row_id": 3305,
+        "equation_preview": "a=sin(4-R-Q_min+beta^3-w_0)-C^3+b+alpha-ln(1-c*y^3)+sum_k=1^N(2+R_net+m_max+V)"
+      },
+      {
+        "token_len": 29,
+        "eq_len": 80,
+        "row_id": 420,
+        "equation_preview": "z=(2+e+lambda)^1/2+(1+R_f*A_net+beta_min)/(k-R^circ+b)-(d_0+x)/(d_f)+h+w_min^*-v"
+      },
+      {
+        "token_len": 29,
+        "eq_len": 82,
+        "row_id": 4290,
+        "equation_preview": "b_min=(e+d)^-1+(1*mu+mu_avg)/(G+r*c)-(I_net^-+delta)^n+1-(p*theta_avg^2)/(2/3+c-y)"
+      },
+      {
+        "token_len": 29,
+        "eq_len": 73,
+        "row_id": 4165,
+        "equation_preview": "v=(G+c_f*x)/(L-w)-G+sigma_max^2-omega^circ-(c-gamma+V+u_f)/(R+mu*g_max*W)"
+      }
+    ],
+    "split": "test",
+    "tokenizer": "bpe"
+  },
+  {
+    "file": "tokenized_test_char.csv",
+    "path": "HPC pipeline\\data\\splits\\tokenized_test_char.csv",
+    "n_rows": 1000,
+    "token_count": {
+      "n": 1000,
+      "mean": 23.263999999999978,
+      "std": 21.201174349403246,
+      "min": 3.0,
+      "max": 126.0,
+      "p50": 17.0,
+      "p90": 57.0,
+      "p99": 91.0
+    },
+    "equation_chars": {
+      "n": 1000,
+      "mean": 23.263999999999978,
+      "std": 21.201174349403246,
+      "min": 3.0,
+      "max": 126.0,
+      "p50": 17.0,
+      "p90": 57.0,
+      "p99": 91.0
+    },
+    "avg_chars_per_token": 1.0,
+    "vocab_size": 55,
+    "unique_tokens_per_equation": {
+      "n": 1000,
+      "mean": 14.747000000000007,
+      "std": 8.182049678224704,
+      "min": 2.0,
+      "max": 40.0
+    },
+    "corr_token_vs_eq_chars": 1.0,
+    "corr_token_vs_complexity": 0.746076400649464,
+    "by_complexity": [
+      {
+        "complexity": 1,
+        "n": 201,
+        "avg_tokens": 6.781094527363184
+      },
+      {
+        "complexity": 2,
+        "n": 208,
+        "avg_tokens": 13.514423076923077
+      },
+      {
+        "complexity": 3,
+        "n": 197,
+        "avg_tokens": 16.84263959390863
+      },
+      {
+        "complexity": 4,
+        "n": 187,
+        "avg_tokens": 19.828877005347593
+      },
+      {
+        "complexity": 5,
+        "n": 207,
+        "avg_tokens": 58.28019323671498
+      }
+    ],
+    "top_k_longest_by_tokens": [
+      {
+        "token_len": 126,
+        "eq_len": 126,
+        "row_id": 3125,
+        "equation_preview": "R=s_net+F_2^n*phi+(k+E_min+u+Q)^1/2-(2-G-s*sigma-v_0^-)/(3+N_A+lambda_1^n-a_i^2)+(2+G+h_1+alpha_avg^3)/(4/3-h-m_f^circ-lambda)"
+      },
+      {
+        "token_len": 125,
+        "eq_len": 125,
+        "row_id": 5645,
+        "equation_preview": "x=sum_n=1^N(2/3+pi+y_min+delta_i+delta_max)-(pi*x_rms*g+mu_avg)/(4+alpha_f)+(gamma_f+B_1*sigma_avg)/(T_rms)-1/2+A*P_i-A_net^3"
+      },
+      {
+        "token_len": 115,
+        "eq_len": 115,
+        "row_id": 6800,
+        "equation_preview": "p_min=(e+Q+psi^+)^-1-(4/3*N_A-delta+t-alpha)/(2+N_A+psi_avg)+int_a^b(1/3+c+T_max+V^2+phi_avg)dx+(4/3+N_A+theta^2)^2"
+      },
+      {
+        "token_len": 112,
+        "eq_len": 112,
+        "row_id": 1680,
+        "equation_preview": "B_0=exp(3+k+h+delta_max+d)+sum_n=0^inf(1+h+u+epsilon_0+A)-(pi-w*theta-r)/(c+d^**omega_max*s)-(4/3+G+u+a)/(r_min)"
+      },
+      {
+        "token_len": 104,
+        "eq_len": 104,
+        "row_id": 5540,
+        "equation_preview": "a_f=sum_j=1^inf(epsilon+B_min)+1/3-k*lambda_0+d+s+int(4/3+N_A+Q_0+c_rms^-+V_avg)dr+(gamma)/(c+delta_rms)"
+      },
+      {
+        "token_len": 103,
+        "eq_len": 103,
+        "row_id": 10,
+        "equation_preview": "I=2+G*y-t*I_2+sum_n=1^inf(pi+x+a_f+A_1)+(c*alpha_min^n+tau^circ)/(e*L)-(pi-E_max)/(h*T_net+A_min*W_max)"
+      },
+      {
+        "token_len": 103,
+        "eq_len": 103,
+        "row_id": 9790,
+        "equation_preview": "n_avg=(1/3+k*n_net^-1*v_f)/(G+z-Q_max)-(1-h_f)/(1/2*R-epsilon-mu+h_rms)-(c+I_i^circ+s_net+lambda_f)^1/2"
+      },
+      {
+        "token_len": 96,
+        "eq_len": 96,
+        "row_id": 9625,
+        "equation_preview": "P_1=(Q_0+gamma+r)^2-(1/3+r_2*Q_rms+P)/(c-d+omega*epsilon_rms)-sin(N_A-n_i^2)+(2+k+C+psi_max+R)^n"
+      },
+      {
+        "token_len": 96,
+        "eq_len": 96,
+        "row_id": 1410,
+        "equation_preview": "L=(m)/(2/3-N_A*omega*alpha_net)+log(c-v)-(1/3+e+lambda+F+mu_max)^3+(3*k*s_min*theta)/(e*delta_i)"
+      },
+      {
+        "token_len": 95,
+        "eq_len": 95,
+        "row_id": 925,
+        "equation_preview": "v_avg=cos(R+mu+b+lambda)+partialE/partialx+sin(c+epsilon_min+beta)+sum_i=1^N(h+a_2^++u^-+theta)"
+      },
+      {
+        "token_len": 91,
+        "eq_len": 91,
+        "row_id": 3395,
+        "equation_preview": "V=(e-sigma*w*T^circ)/(4-N_A+psi+omega_2-a)+int(1/3+k+n_net)dx+partialR/partialt-(3+x^-)^1/2"
+      },
+      {
+        "token_len": 91,
+        "eq_len": 91,
+        "row_id": 855,
+        "equation_preview": "g=1+I_2-u^n-b_i+(c_f-alpha*C)/(c-alpha+I^+)+(1/3+pi+c_max)^-1+(1+N_A-C*B^2)/(2*c+y_2-sigma)"
+      },
+      {
+        "token_len": 90,
+        "eq_len": 90,
+        "row_id": 7420,
+        "equation_preview": "m=da/dx+sum_i=1^inf(2+k+sigma_2+L_rms+delta_i^circ)+(2/3+pi+beta+gamma+x)^1/2+pi*Q-phi_min"
+      },
+      {
+        "token_len": 89,
+        "eq_len": 89,
+        "row_id": 6710,
+        "equation_preview": "g=sum_n=0^n(1/3+c+s)+(pi-h-T)/(2/3-e-v-phi^++u)+(t_0*lambda*I)/(3+c+phi_min*P)+pi+Q-delta"
+      },
+      {
+        "token_len": 85,
+        "eq_len": 85,
+        "row_id": 7990,
+        "equation_preview": "y=4/3*k+a-n+h_avg+exp(2/3+h-Q)-(N_A+theta_0+d_i+epsilon_min)^2+sin(k+s_2+s+omega_min)"
+      },
+      {
+        "token_len": 84,
+        "eq_len": 84,
+        "row_id": 7410,
+        "equation_preview": "p_f=int(k+omega_1^circ+z+P_f)dV-(k-I_2-E+phi_rms)/(e*beta+h*theta)+ln(4-R-a_f+Q_rms)"
+      },
+      {
+        "token_len": 84,
+        "eq_len": 84,
+        "row_id": 2050,
+        "equation_preview": "v=cos(R*theta^*+psi)+sqrt(h+a*tau_1-A_min)-(1/2+beta_avg)^n+1+(e*mu)/(d_0-b_f+m_avg)"
+      },
+      {
+        "token_len": 83,
+        "eq_len": 83,
+        "row_id": 8390,
+        "equation_preview": "a=ln(1/2+x+P+F_avg)-(e-x_i+epsilon)/(2*R+v)-(c+p_2+A)^2-(2-I_0-s-z)/(3-c-u_2+L+F_1)"
+      },
+      {
+        "token_len": 83,
+        "eq_len": 83,
+        "row_id": 4785,
+        "equation_preview": "h=(1/2+e+x_rms+c^circ)^n+tau_i^2+(A*gamma_i-phi_1)/(e-beta-y)+(R-s-E)/(v+A-delta_0)"
+      },
+      {
+        "token_len": 83,
+        "eq_len": 83,
+        "row_id": 4730,
+        "equation_preview": "I_min=n+y+(h*V)/(N_A+g_net^2*F_rms)+(2+R+gamma_i^-1+psi+a^-1)^2+(C^2)/(k-R*L_0^+*d)"
+      }
+    ],
+    "split": "test",
+    "tokenizer": "char"
+  },
+  {
+    "file": "tokenized_test_hierarchical.csv",
+    "path": "HPC pipeline\\data\\splits\\tokenized_test_hierarchical.csv",
+    "n_rows": 1000,
+    "token_count": {
+      "n": 1000,
+      "mean": 41.100000000000016,
+      "std": 34.610517012721544,
+      "min": 7.0,
+      "max": 219.0,
+      "p50": 29.0,
+      "p90": 97.0,
+      "p99": 155.0
+    },
+    "equation_chars": {
+      "n": 1000,
+      "mean": 23.263999999999978,
+      "std": 21.201174349403246,
+      "min": 3.0,
+      "max": 126.0,
+      "p50": 17.0,
+      "p90": 57.0,
+      "p99": 91.0
+    },
+    "avg_chars_per_token": 0.5660340632603399,
+    "vocab_size": 79,
+    "unique_tokens_per_equation": {
+      "n": 1000,
+      "mean": 21.816999999999986,
+      "std": 8.969725021814607,
+      "min": 6.0,
+      "max": 49.0
+    },
+    "corr_token_vs_eq_chars": 0.8723480736123587,
+    "corr_token_vs_complexity": 0.6761560576725536,
+    "by_complexity": [
+      {
+        "complexity": 1,
+        "n": 201,
+        "avg_tokens": 15.427860696517413
+      },
+      {
+        "complexity": 2,
+        "n": 208,
+        "avg_tokens": 27.346153846153847
+      },
+      {
+        "complexity": 3,
+        "n": 197,
+        "avg_tokens": 35.45685279187817
+      },
+      {
+        "complexity": 4,
+        "n": 187,
+        "avg_tokens": 31.181818181818183
+      },
+      {
+        "complexity": 5,
+        "n": 207,
+        "avg_tokens": 94.17874396135265
+      }
+    ],
+    "top_k_longest_by_tokens": [
+      {
+        "token_len": 219,
+        "eq_len": 115,
+        "row_id": 6800,
+        "equation_preview": "p_min=(e+Q+psi^+)^-1-(4/3*N_A-delta+t-alpha)/(2+N_A+psi_avg)+int_a^b(1/3+c+T_max+V^2+phi_avg)dx+(4/3+N_A+theta^2)^2"
+      },
+      {
+        "token_len": 197,
+        "eq_len": 103,
+        "row_id": 9790,
+        "equation_preview": "n_avg=(1/3+k*n_net^-1*v_f)/(G+z-Q_max)-(1-h_f)/(1/2*R-epsilon-mu+h_rms)-(c+I_i^circ+s_net+lambda_f)^1/2"
+      },
+      {
+        "token_len": 181,
+        "eq_len": 96,
+        "row_id": 9625,
+        "equation_preview": "P_1=(Q_0+gamma+r)^2-(1/3+r_2*Q_rms+P)/(c-d+omega*epsilon_rms)-sin(N_A-n_i^2)+(2+k+C+psi_max+R)^n"
+      },
+      {
+        "token_len": 178,
+        "eq_len": 126,
+        "row_id": 3125,
+        "equation_preview": "R=s_net+F_2^n*phi+(k+E_min+u+Q)^1/2-(2-G-s*sigma-v_0^-)/(3+N_A+lambda_1^n-a_i^2)+(2+G+h_1+alpha_avg^3)/(4/3-h-m_f^circ-lambda)"
+      },
+      {
+        "token_len": 171,
+        "eq_len": 96,
+        "row_id": 1410,
+        "equation_preview": "L=(m)/(2/3-N_A*omega*alpha_net)+log(c-v)-(1/3+e+lambda+F+mu_max)^3+(3*k*s_min*theta)/(e*delta_i)"
+      },
+      {
+        "token_len": 171,
+        "eq_len": 91,
+        "row_id": 855,
+        "equation_preview": "g=1+I_2-u^n-b_i+(c_f-alpha*C)/(c-alpha+I^+)+(1/3+pi+c_max)^-1+(1+N_A-C*B^2)/(2*c+y_2-sigma)"
+      },
+      {
+        "token_len": 165,
+        "eq_len": 84,
+        "row_id": 7410,
+        "equation_preview": "p_f=int(k+omega_1^circ+z+P_f)dV-(k-I_2-E+phi_rms)/(e*beta+h*theta)+ln(4-R-a_f+Q_rms)"
+      },
+      {
+        "token_len": 165,
+        "eq_len": 84,
+        "row_id": 2050,
+        "equation_preview": "v=cos(R*theta^*+psi)+sqrt(h+a*tau_1-A_min)-(1/2+beta_avg)^n+1+(e*mu)/(d_0-b_f+m_avg)"
+      },
+      {
+        "token_len": 161,
+        "eq_len": 85,
+        "row_id": 7990,
+        "equation_preview": "y=4/3*k+a-n+h_avg+exp(2/3+h-Q)-(N_A+theta_0+d_i+epsilon_min)^2+sin(k+s_2+s+omega_min)"
+      },
+      {
+        "token_len": 155,
+        "eq_len": 83,
+        "row_id": 4785,
+        "equation_preview": "h=(1/2+e+x_rms+c^circ)^n+tau_i^2+(A*gamma_i-phi_1)/(e-beta-y)+(R-s-E)/(v+A-delta_0)"
+      },
+      {
+        "token_len": 155,
+        "eq_len": 81,
+        "row_id": 4200,
+        "equation_preview": "n=(1/2*theta)/(pi*p_avg-psi_0)+int(2+e+b_net^*+phi)dr-(G+a_avg^*)/(N_A-E^+-C*s_1)"
+      },
+      {
+        "token_len": 153,
+        "eq_len": 78,
+        "row_id": 1665,
+        "equation_preview": "L=ln(N_A+Q*P-W)-ln(pi+W+I_max+beta)-(2+b-m_min+alpha_min)/(k+mu^*-R_rms^+*w_i)"
+      },
+      {
+        "token_len": 153,
+        "eq_len": 79,
+        "row_id": 785,
+        "equation_preview": "p=partialQ/partialt+(k+n_min)/(3+lambda_f^3-W+A)-R-h^+*tau+sin(N_A-alpha+w_avg)"
+      },
+      {
+        "token_len": 153,
+        "eq_len": 80,
+        "row_id": 7555,
+        "equation_preview": "B_avg=sqrt(pi+B_f+c)+(2+pi+z_min+L+F_net)^2+(3-c*alpha)/(c-w^2)+1*pi-p_f*u+delta"
+      },
+      {
+        "token_len": 151,
+        "eq_len": 82,
+        "row_id": 5960,
+        "equation_preview": "V=sqrt(2+B_avg+r_i+s^-1)+(e+v-V_f*R)/(v)-cos(v+phi_avg+beta_max)-(h+d)/(3+e+theta)"
+      },
+      {
+        "token_len": 151,
+        "eq_len": 79,
+        "row_id": 8925,
+        "equation_preview": "z=e-r-c+x_f-p+partialC/partialx+(1/2-psi_i+sigma_max^3-v)/(pi-beta_max^2-sigma)"
+      },
+      {
+        "token_len": 149,
+        "eq_len": 80,
+        "row_id": 420,
+        "equation_preview": "z=(2+e+lambda)^1/2+(1+R_f*A_net+beta_min)/(k-R^circ+b)-(d_0+x)/(d_f)+h+w_min^*-v"
+      },
+      {
+        "token_len": 149,
+        "eq_len": 83,
+        "row_id": 8390,
+        "equation_preview": "a=ln(1/2+x+P+F_avg)-(e-x_i+epsilon)/(2*R+v)-(c+p_2+A)^2-(2-I_0-s-z)/(3-c-u_2+L+F_1)"
+      },
+      {
+        "token_len": 149,
+        "eq_len": 75,
+        "row_id": 8435,
+        "equation_preview": "m=partialW/partialx-(N_A-I_i-beta_0-sigma)/(3-c*a_i-a_rms^+-C)-cos(R+W_rms)"
+      },
+      {
+        "token_len": 149,
+        "eq_len": 79,
+        "row_id": 6185,
+        "equation_preview": "v_rms=(1/2+g^++w_min)^2+ln(2/3+T_avg+A)+(G-mu^circ+phi_2)/(C_f+Q+p)+3-G-theta-W"
+      }
+    ],
+    "split": "test",
+    "tokenizer": "hierarchical"
+  },
+  {
+    "file": "tokenized_train_bpe.csv",
+    "path": "HPC pipeline\\data\\splits\\tokenized_train_bpe.csv",
+    "n_rows": 8000,
+    "token_count": {
+      "n": 8000,
+      "mean": 7.499874999999991,
+      "std": 6.877347760830702,
+      "min": 2.0,
+      "max": 45.0,
+      "p50": 5.0,
+      "p90": 19.0,
+      "p99": 32.0
+    },
+    "equation_chars": {
+      "n": 8000,
+      "mean": 22.85850000000001,
+      "std": 20.776908762908334,
+      "min": 3.0,
+      "max": 134.0,
+      "p50": 17.0,
+      "p90": 55.0,
+      "p99": 96.0
+    },
+    "avg_chars_per_token": 3.0478507975132967,
+    "vocab_size": 779,
+    "unique_tokens_per_equation": {
+      "n": 8000,
+      "mean": 7.348500000000002,
+      "std": 6.5268769534399445,
+      "min": 2.0,
+      "max": 42.0
+    },
+    "corr_token_vs_eq_chars": 0.9698485119864398,
+    "corr_token_vs_complexity": 0.6854830825673167,
+    "by_complexity": [
+      {
+        "complexity": 1,
+        "n": 1588,
+        "avg_tokens": 2.779596977329975
+      },
+      {
+        "complexity": 2,
+        "n": 1596,
+        "avg_tokens": 4.6948621553884715
+      },
+      {
+        "complexity": 3,
+        "n": 1610,
+        "avg_tokens": 5.604347826086957
+      },
+      {
+        "complexity": 4,
+        "n": 1618,
+        "avg_tokens": 5.226205191594561
+      },
+      {
+        "complexity": 5,
+        "n": 1588,
+        "avg_tokens": 19.27770780856423
+      }
+    ],
+    "top_k_longest_by_tokens": [
+      {
+        "token_len": 45,
+        "eq_len": 134,
+        "row_id": 885,
+        "equation_preview": "W=(G*E_1+psi_avg)/(R-v_2^-1*x+a_rms)+(pi-a_min*lambda-a)/(k+Q^+*t)+(3-G-L_i+delta_max)/(k*beta_avg)-(h-alpha_max*w)/(v^circ*m_avg+B_i)"
+      },
+      {
+        "token_len": 44,
+        "eq_len": 121,
+        "row_id": 9315,
+        "equation_preview": "p=(3*h-y+h+b)/(3-h-v*h_2+omega)+(1*k+L_avg*A^3+T_max)/(4-R-lambda_net-tau+z)+(d+V^-1*d_min)/(3*theta_2^+-W*x)-(2+w+z_1)^2"
+      },
+      {
+        "token_len": 43,
+        "eq_len": 114,
+        "row_id": 7790,
+        "equation_preview": "E_i=(pi-R*phi_i^-1*E_0^2)/(4/3+G+a_avg-u-R^-)-(4+R+b^circ-W*psi_f)/(1/3-u+c)+tan(2/3+R*p-Q_min)+(pi*C-W^3)/(2-k*x)"
+      },
+      {
+        "token_len": 43,
+        "eq_len": 126,
+        "row_id": 7975,
+        "equation_preview": "B_1=(3-h-s-Q)/(1+G*s_f^-+B^3*alpha_net)+(1/3+P_rms)^1/2-(2/3-R+mu_min*gamma^+-y)/(1/3-c+epsilon+V_net^2)+(G-tau)/(2+v_avg*c_i)"
+      },
+      {
+        "token_len": 41,
+        "eq_len": 119,
+        "row_id": 2940,
+        "equation_preview": "a=(y_2+E_rms*omega)/(3*z)-(1/3*pi*delta*b*F_f)/(1/2-k-lambda_1^n*delta-x)-h+r^circ+(1/3*T_0^circ)/(e*r_f*mu_min^+*beta)"
+      },
+      {
+        "token_len": 41,
+        "eq_len": 108,
+        "row_id": 9160,
+        "equation_preview": "R=(4+a_max-phi_min^-)/(R-d_net^+)+int(w_rms^+)dr+(k+c^+*phi+epsilon)/(2-R-Q_max*x_0)+(1-h+y^circ)/(pi-d*g_f)"
+      },
+      {
+        "token_len": 40,
+        "eq_len": 109,
+        "row_id": 8270,
+        "equation_preview": "E=partialL/partialy-int_a^L(c+L+T)dx+(e+delta_i-W_net)/(4-N_A-E_2+n-z)+(G+y*p^*-Q_f^-1)/(R*z_f*u_1-phi_min^*)"
+      },
+      {
+        "token_len": 40,
+        "eq_len": 122,
+        "row_id": 3160,
+        "equation_preview": "h=exp(e+lambda)-(R*theta_net)/(beta^n*v_1*g)+(4/3+k+F*epsilon_net+V_1)/(k*Q_rms^2+u_net)-(2/3-G*A-r+gamma)/(4*h-t_i^+-E^*)"
+      },
+      {
+        "token_len": 39,
+        "eq_len": 120,
+        "row_id": 8285,
+        "equation_preview": "a_net=(4/3*theta_f*lambda+y_1^*)/(beta+V_0+R_0^-1)+(R+L_net^-1+x+theta_2)^2+(3-mu_max+w^-1-F)/(1/2+N_A+p+C)-pi*E-sigma_1"
+      },
+      {
+        "token_len": 39,
+        "eq_len": 120,
+        "row_id": 3065,
+        "equation_preview": "p=1*h*p_avg^3+x_0^n-4+pi-a-(k+m_f*w_rms+lambda)/(4/3*R_2^-+alpha-alpha^+)-(N_A-d_0-beta*E_f)/(R+lambda_min^*-Q_net+beta)"
+      },
+      {
+        "token_len": 39,
+        "eq_len": 121,
+        "row_id": 605,
+        "equation_preview": "B=sum_j=1^N(1/2+e+r+T_1^3)+(1/2+e-sigma^++W_rms-gamma_0^2)/(h*g*R_f+mu_rms^n)-(R-epsilon+alpha_2^n+B_avg)/(N_A-W^*-d_max)"
+      },
+      {
+        "token_len": 39,
+        "eq_len": 130,
+        "row_id": 8375,
+        "equation_preview": "R_1=(N_A+beta_min+delta^2)/(2*c_min*a_f)-(E_2^n)/(1+P-R^+*d)-(1/2+c+b+delta_1)^-1+(2/3*beta_2+sigma*epsilon)/(2*N_A+T_1-sigma+p_2)"
+      },
+      {
+        "token_len": 39,
+        "eq_len": 111,
+        "row_id": 9490,
+        "equation_preview": "B_net=sin(h+psi+alpha_f^3+omega_i)+(3*k+omega_rms^2)/(3*pi+Q_2^+)+k-t_2*phi_f+I+(N_A*tau^3)/(G+r_min-sigma^+-p)"
+      },
+      {
+        "token_len": 39,
+        "eq_len": 105,
+        "row_id": 2925,
+        "equation_preview": "g=(k-V_net*v^n)/(2+h+F_2)-(1+Q_0)/(1/2+k*a+B_i)-(e+mu-I_i-w_rms)/(4/3-t_rms*y*phi)+(pi+v^2+delta+v_2^+)^n"
+      },
+      {
+        "token_len": 38,
+        "eq_len": 107,
+        "row_id": 6330,
+        "equation_preview": "v_f=(psi*m_1^-1*F_net^-1)/(t_1+g_avg)-(4+pi*v*lambda_net-tau_0^n)/(2/3-c+tau^-1+E_max)-sin(psi_i+w_i+d_0^3)"
+      },
+      {
+        "token_len": 38,
+        "eq_len": 111,
+        "row_id": 9445,
+        "equation_preview": "T=(x^3)/(2/3*phi_min*phi_i*s)+(h*beta_2*E)/(2/3*m*g_min-beta)-(3*c+b_min^3+w_f-w)/(G-epsilon*theta+h)-4-k-b_rms"
+      },
+      {
+        "token_len": 38,
+        "eq_len": 101,
+        "row_id": 1190,
+        "equation_preview": "h_f=(c+h_net)^n+4*G-mu_0*z_net^--m_net+(alpha^n*gamma_f+A_2)/(2*e+u^+-mu)+int_0^b(G+psi^3+y^2+p^-1)dV"
+      },
+      {
+        "token_len": 38,
+        "eq_len": 113,
+        "row_id": 870,
+        "equation_preview": "V=(4-k*A_rms-gamma_f^circ-d_1^+)/(c-epsilon_rms*r_1)+4+r^-1-g_max-(2/3*h+C_f+a_2+L)/(2/3*R+v^+)+partialF/partialx"
+      },
+      {
+        "token_len": 37,
+        "eq_len": 106,
+        "row_id": 9460,
+        "equation_preview": "Q=sqrt(N_A+u^-1+y+epsilon_0)-1/2-h*c_1^2+p-sin(1+R+h^++b_f+c_min)+(N_A-F_0-B_2)/(3+h*epsilon_i^circ-A_0-B)"
+      },
+      {
+        "token_len": 37,
+        "eq_len": 123,
+        "row_id": 5010,
+        "equation_preview": "A_rms=(2/3+e+beta_f+r_min+delta_max)^3+exp(c+v_1^-1+phi_max+v_i)+(e+R+W_min^--phi_0)/(N_A+alpha)-(4/3*e-alpha)/(4*mu-I_f^2)"
+      }
+    ],
+    "split": "train",
+    "tokenizer": "bpe"
+  },
+  {
+    "file": "tokenized_train_char.csv",
+    "path": "HPC pipeline\\data\\splits\\tokenized_train_char.csv",
+    "n_rows": 8000,
+    "token_count": {
+      "n": 8000,
+      "mean": 22.85850000000001,
+      "std": 20.776908762908334,
+      "min": 3.0,
+      "max": 134.0,
+      "p50": 17.0,
+      "p90": 55.0,
+      "p99": 96.0
+    },
+    "equation_chars": {
+      "n": 8000,
+      "mean": 22.85850000000001,
+      "std": 20.776908762908334,
+      "min": 3.0,
+      "max": 134.0,
+      "p50": 17.0,
+      "p90": 55.0,
+      "p99": 96.0
+    },
+    "avg_chars_per_token": 1.0,
+    "vocab_size": 55,
+    "unique_tokens_per_equation": {
+      "n": 8000,
+      "mean": 14.709625000000054,
+      "std": 8.085618684619261,
+      "min": 2.0,
+      "max": 41.0
+    },
+    "corr_token_vs_eq_chars": 1.0,
+    "corr_token_vs_complexity": 0.723682023980452,
+    "by_complexity": [
+      {
+        "complexity": 1,
+        "n": 1588,
+        "avg_tokens": 6.674433249370277
+      },
+      {
+        "complexity": 2,
+        "n": 1596,
+        "avg_tokens": 13.965538847117795
+      },
+      {
+        "complexity": 3,
+        "n": 1610,
+        "avg_tokens": 16.950310559006212
+      },
+      {
+        "complexity": 4,
+        "n": 1618,
+        "avg_tokens": 19.608158220024723
+      },
+      {
+        "complexity": 5,
+        "n": 1588,
+        "avg_tokens": 57.28211586901763
+      }
+    ],
+    "top_k_longest_by_tokens": [
+      {
+        "token_len": 134,
+        "eq_len": 134,
+        "row_id": 885,
+        "equation_preview": "W=(G*E_1+psi_avg)/(R-v_2^-1*x+a_rms)+(pi-a_min*lambda-a)/(k+Q^+*t)+(3-G-L_i+delta_max)/(k*beta_avg)-(h-alpha_max*w)/(v^circ*m_avg+B_i)"
+      },
+      {
+        "token_len": 130,
+        "eq_len": 130,
+        "row_id": 8375,
+        "equation_preview": "R_1=(N_A+beta_min+delta^2)/(2*c_min*a_f)-(E_2^n)/(1+P-R^+*d)-(1/2+c+b+delta_1)^-1+(2/3*beta_2+sigma*epsilon)/(2*N_A+T_1-sigma+p_2)"
+      },
+      {
+        "token_len": 126,
+        "eq_len": 126,
+        "row_id": 7975,
+        "equation_preview": "B_1=(3-h-s-Q)/(1+G*s_f^-+B^3*alpha_net)+(1/3+P_rms)^1/2-(2/3-R+mu_min*gamma^+-y)/(1/3-c+epsilon+V_net^2)+(G-tau)/(2+v_avg*c_i)"
+      },
+      {
+        "token_len": 126,
+        "eq_len": 126,
+        "row_id": 6535,
+        "equation_preview": "B=log(4/3+R*phi+I_net^-1)+(4/3-sigma^circ*C_max+W)/(N_A+alpha_0*I_max)+(4/3+h*V)/(1/2*pi+lambda+E_max+W)-int(4/3+R+a+tau^-1)dr"
+      },
+      {
+        "token_len": 123,
+        "eq_len": 123,
+        "row_id": 5010,
+        "equation_preview": "A_rms=(2/3+e+beta_f+r_min+delta_max)^3+exp(c+v_1^-1+phi_max+v_i)+(e+R+W_min^--phi_0)/(N_A+alpha)-(4/3*e-alpha)/(4*mu-I_f^2)"
+      },
+      {
+        "token_len": 122,
+        "eq_len": 122,
+        "row_id": 3160,
+        "equation_preview": "h=exp(e+lambda)-(R*theta_net)/(beta^n*v_1*g)+(4/3+k+F*epsilon_net+V_1)/(k*Q_rms^2+u_net)-(2/3-G*A-r+gamma)/(4*h-t_i^+-E^*)"
+      },
+      {
+        "token_len": 121,
+        "eq_len": 121,
+        "row_id": 605,
+        "equation_preview": "B=sum_j=1^N(1/2+e+r+T_1^3)+(1/2+e-sigma^++W_rms-gamma_0^2)/(h*g*R_f+mu_rms^n)-(R-epsilon+alpha_2^n+B_avg)/(N_A-W^*-d_max)"
+      },
+      {
+        "token_len": 121,
+        "eq_len": 121,
+        "row_id": 9315,
+        "equation_preview": "p=(3*h-y+h+b)/(3-h-v*h_2+omega)+(1*k+L_avg*A^3+T_max)/(4-R-lambda_net-tau+z)+(d+V^-1*d_min)/(3*theta_2^+-W*x)-(2+w+z_1)^2"
+      },
+      {
+        "token_len": 120,
+        "eq_len": 120,
+        "row_id": 8285,
+        "equation_preview": "a_net=(4/3*theta_f*lambda+y_1^*)/(beta+V_0+R_0^-1)+(R+L_net^-1+x+theta_2)^2+(3-mu_max+w^-1-F)/(1/2+N_A+p+C)-pi*E-sigma_1"
+      },
+      {
+        "token_len": 120,
+        "eq_len": 120,
+        "row_id": 145,
+        "equation_preview": "m=(3+G+delta^3+T_min^*)^n-(h*c-Q_min+mu_1)/(1/3*N_A-epsilon+P_avg)+sqrt(k+delta^circ+omega_0+t^-1)-ln(4+c+C^*+P_f+psi_2)"
+      },
+      {
+        "token_len": 120,
+        "eq_len": 120,
+        "row_id": 3065,
+        "equation_preview": "p=1*h*p_avg^3+x_0^n-4+pi-a-(k+m_f*w_rms+lambda)/(4/3*R_2^-+alpha-alpha^+)-(N_A-d_0-beta*E_f)/(R+lambda_min^*-Q_net+beta)"
+      },
+      {
+        "token_len": 119,
+        "eq_len": 119,
+        "row_id": 2940,
+        "equation_preview": "a=(y_2+E_rms*omega)/(3*z)-(1/3*pi*delta*b*F_f)/(1/2-k-lambda_1^n*delta-x)-h+r^circ+(1/3*T_0^circ)/(e*r_f*mu_min^+*beta)"
+      },
+      {
+        "token_len": 118,
+        "eq_len": 118,
+        "row_id": 6190,
+        "equation_preview": "g=e-omega_rms-B+tau+(pi*L+c_avg^-1)/(1/2*k*T_min*psi^n-b^+)+(R+omega_min+epsilon)^n+(4/3*pi+epsilon_1)/(1/2+delta-h^+)"
+      },
+      {
+        "token_len": 117,
+        "eq_len": 117,
+        "row_id": 4615,
+        "equation_preview": "m_f=partialP/partialy-(R+lambda_2*a_max^-1)/(4/3-k+L)+(4/3+c*P_f-R_min^2+beta^n)/(1/3-pi-phi_min^circ*B^3)-h-s_2^circ"
+      },
+      {
+        "token_len": 117,
+        "eq_len": 117,
+        "row_id": 135,
+        "equation_preview": "B=(1*N_A-h*sigma^++omega)/(R-E*epsilon)+int_L^inf(z+delta_min^circ+r)dt+sum_k=0^N(c+m+P^-1)-sqrt(N_A+sigma+a_1+y_2^n)"
+      },
+      {
+        "token_len": 114,
+        "eq_len": 114,
+        "row_id": 7790,
+        "equation_preview": "E_i=(pi-R*phi_i^-1*E_0^2)/(4/3+G+a_avg-u-R^-)-(4+R+b^circ-W*psi_f)/(1/3-u+c)+tan(2/3+R*p-Q_min)+(pi*C-W^3)/(2-k*x)"
+      },
+      {
+        "token_len": 113,
+        "eq_len": 113,
+        "row_id": 870,
+        "equation_preview": "V=(4-k*A_rms-gamma_f^circ-d_1^+)/(c-epsilon_rms*r_1)+4+r^-1-g_max-(2/3*h+C_f+a_2+L)/(2/3*R+v^+)+partialF/partialx"
+      },
+      {
+        "token_len": 112,
+        "eq_len": 112,
+        "row_id": 7350,
+        "equation_preview": "p_2=(1/2+pi+sigma_rms^*)^n-(R+F_0^circ-tau*g_net)/(2/3+h*x_rms)+1/2+k-E-t-V_avg-(2/3+k+R_max)/(G*s^*-omega_f^-1)"
+      },
+      {
+        "token_len": 112,
+        "eq_len": 112,
+        "row_id": 1260,
+        "equation_preview": "g=(2-e*beta*V_max^*)/(pi*V+V)+(4*pi-tau_min)/(N_A*psi_f^-)+(R+x+E_rms)^n+1+(E+gamma*theta_min)/(4-N_A*h^2+omega)"
+      },
+      {
+        "token_len": 112,
+        "eq_len": 112,
+        "row_id": 9355,
+        "equation_preview": "a=(alpha_2+alpha_rms+omega_f)^n+(b)/(1/3-G*sigma_avg-W)+ln(3+L+v_net^n)-(4*G*epsilon_min*tau^n+omega_avg)/(pi*g)"
+      }
+    ],
+    "split": "train",
+    "tokenizer": "char"
+  },
+  {
+    "file": "tokenized_train_hierarchical.csv",
+    "path": "HPC pipeline\\data\\splits\\tokenized_train_hierarchical.csv",
+    "n_rows": 8000,
+    "token_count": {
+      "n": 8000,
+      "mean": 41.17412499999996,
+      "std": 34.72747550828838,
+      "min": 7.0,
+      "max": 251.0,
+      "p50": 31.0,
+      "p90": 91.0,
+      "p99": 173.0
+    },
+    "equation_chars": {
+      "n": 8000,
+      "mean": 22.85850000000001,
+      "std": 20.776908762908334,
+      "min": 3.0,
+      "max": 134.0,
+      "p50": 17.0,
+      "p90": 55.0,
+      "p99": 96.0
+    },
+    "avg_chars_per_token": 0.5551666246702275,
+    "vocab_size": 80,
+    "unique_tokens_per_equation": {
+      "n": 8000,
+      "mean": 21.900124999999942,
+      "std": 8.969013623863438,
+      "min": 6.0,
+      "max": 53.0
+    },
+    "corr_token_vs_eq_chars": 0.9036171500868198,
+    "corr_token_vs_complexity": 0.6574262791560661,
+    "by_complexity": [
+      {
+        "complexity": 1,
+        "n": 1588,
+        "avg_tokens": 15.201511335012594
+      },
+      {
+        "complexity": 2,
+        "n": 1596,
+        "avg_tokens": 28.407268170426065
+      },
+      {
+        "complexity": 3,
+        "n": 1610,
+        "avg_tokens": 35.72919254658385
+      },
+      {
+        "complexity": 4,
+        "n": 1618,
+        "avg_tokens": 32.532138442521635
+      },
+      {
+        "complexity": 5,
+        "n": 1588,
+        "avg_tokens": 94.30352644836272
+      }
+    ],
+    "top_k_longest_by_tokens": [
+      {
+        "token_len": 251,
+        "eq_len": 134,
+        "row_id": 885,
+        "equation_preview": "W=(G*E_1+psi_avg)/(R-v_2^-1*x+a_rms)+(pi-a_min*lambda-a)/(k+Q^+*t)+(3-G-L_i+delta_max)/(k*beta_avg)-(h-alpha_max*w)/(v^circ*m_avg+B_i)"
+      },
+      {
+        "token_len": 243,
+        "eq_len": 130,
+        "row_id": 8375,
+        "equation_preview": "R_1=(N_A+beta_min+delta^2)/(2*c_min*a_f)-(E_2^n)/(1+P-R^+*d)-(1/2+c+b+delta_1)^-1+(2/3*beta_2+sigma*epsilon)/(2*N_A+T_1-sigma+p_2)"
+      },
+      {
+        "token_len": 233,
+        "eq_len": 126,
+        "row_id": 6535,
+        "equation_preview": "B=log(4/3+R*phi+I_net^-1)+(4/3-sigma^circ*C_max+W)/(N_A+alpha_0*I_max)+(4/3+h*V)/(1/2*pi+lambda+E_max+W)-int(4/3+R+a+tau^-1)dr"
+      },
+      {
+        "token_len": 229,
+        "eq_len": 120,
+        "row_id": 145,
+        "equation_preview": "m=(3+G+delta^3+T_min^*)^n-(h*c-Q_min+mu_1)/(1/3*N_A-epsilon+P_avg)+sqrt(k+delta^circ+omega_0+t^-1)-ln(4+c+C^*+P_f+psi_2)"
+      },
+      {
+        "token_len": 227,
+        "eq_len": 122,
+        "row_id": 3160,
+        "equation_preview": "h=exp(e+lambda)-(R*theta_net)/(beta^n*v_1*g)+(4/3+k+F*epsilon_net+V_1)/(k*Q_rms^2+u_net)-(2/3-G*A-r+gamma)/(4*h-t_i^+-E^*)"
+      },
+      {
+        "token_len": 221,
+        "eq_len": 120,
+        "row_id": 8285,
+        "equation_preview": "a_net=(4/3*theta_f*lambda+y_1^*)/(beta+V_0+R_0^-1)+(R+L_net^-1+x+theta_2)^2+(3-mu_max+w^-1-F)/(1/2+N_A+p+C)-pi*E-sigma_1"
+      },
+      {
+        "token_len": 221,
+        "eq_len": 117,
+        "row_id": 4615,
+        "equation_preview": "m_f=partialP/partialy-(R+lambda_2*a_max^-1)/(4/3-k+L)+(4/3+c*P_f-R_min^2+beta^n)/(1/3-pi-phi_min^circ*B^3)-h-s_2^circ"
+      },
+      {
+        "token_len": 217,
+        "eq_len": 118,
+        "row_id": 6190,
+        "equation_preview": "g=e-omega_rms-B+tau+(pi*L+c_avg^-1)/(1/2*k*T_min*psi^n-b^+)+(R+omega_min+epsilon)^n+(4/3*pi+epsilon_1)/(1/2+delta-h^+)"
+      },
+      {
+        "token_len": 215,
+        "eq_len": 121,
+        "row_id": 9315,
+        "equation_preview": "p=(3*h-y+h+b)/(3-h-v*h_2+omega)+(1*k+L_avg*A^3+T_max)/(4-R-lambda_net-tau+z)+(d+V^-1*d_min)/(3*theta_2^+-W*x)-(2+w+z_1)^2"
+      },
+      {
+        "token_len": 215,
+        "eq_len": 111,
+        "row_id": 9490,
+        "equation_preview": "B_net=sin(h+psi+alpha_f^3+omega_i)+(3*k+omega_rms^2)/(3*pi+Q_2^+)+k-t_2*phi_f+I+(N_A*tau^3)/(G+r_min-sigma^+-p)"
+      },
+      {
+        "token_len": 211,
+        "eq_len": 112,
+        "row_id": 9355,
+        "equation_preview": "a=(alpha_2+alpha_rms+omega_f)^n+(b)/(1/3-G*sigma_avg-W)+ln(3+L+v_net^n)-(4*G*epsilon_min*tau^n+omega_avg)/(pi*g)"
+      },
+      {
+        "token_len": 209,
+        "eq_len": 112,
+        "row_id": 7350,
+        "equation_preview": "p_2=(1/2+pi+sigma_rms^*)^n-(R+F_0^circ-tau*g_net)/(2/3+h*x_rms)+1/2+k-E-t-V_avg-(2/3+k+R_max)/(G*s^*-omega_f^-1)"
+      },
+      {
+        "token_len": 207,
+        "eq_len": 119,
+        "row_id": 2940,
+        "equation_preview": "a=(y_2+E_rms*omega)/(3*z)-(1/3*pi*delta*b*F_f)/(1/2-k-lambda_1^n*delta-x)-h+r^circ+(1/3*T_0^circ)/(e*r_f*mu_min^+*beta)"
+      },
+      {
+        "token_len": 207,
+        "eq_len": 113,
+        "row_id": 870,
+        "equation_preview": "V=(4-k*A_rms-gamma_f^circ-d_1^+)/(c-epsilon_rms*r_1)+4+r^-1-g_max-(2/3*h+C_f+a_2+L)/(2/3*R+v^+)+partialF/partialx"
+      },
+      {
+        "token_len": 205,
+        "eq_len": 107,
+        "row_id": 6330,
+        "equation_preview": "v_f=(psi*m_1^-1*F_net^-1)/(t_1+g_avg)-(4+pi*v*lambda_net-tau_0^n)/(2/3-c+tau^-1+E_max)-sin(psi_i+w_i+d_0^3)"
+      },
+      {
+        "token_len": 205,
+        "eq_len": 104,
+        "row_id": 8440,
+        "equation_preview": "I_f=tan(m+t_f^n)-cos(2+N_A+t-epsilon_1)-(1/3+h+alpha^-1*P_2)/(e+gamma_rms+lambda-h_avg)-(pi+psi+A_net)^3"
+      },
+      {
+        "token_len": 205,
+        "eq_len": 105,
+        "row_id": 1055,
+        "equation_preview": "P_0=(2/3*R-b_net^3-T*lambda)/(1/3-G+r_0-C_net^2*s)-dA/dx+int_L^b(4/3+N_A+gamma+delta)dt-alpha_max-epsilon"
+      },
+      {
+        "token_len": 203,
+        "eq_len": 104,
+        "row_id": 3800,
+        "equation_preview": "W_i=cos(B+y_avg)+int_0^inf(1/2+h+theta^*+R_rms^+)dx-2-G+y_avg+mu^2-(4*c*b+c_2+phi^n)/(2*R+I^++tau+alpha)"
+      },
+      {
+        "token_len": 203,
+        "eq_len": 109,
+        "row_id": 8270,
+        "equation_preview": "E=partialL/partialy-int_a^L(c+L+T)dx+(e+delta_i-W_net)/(4-N_A-E_2+n-z)+(G+y*p^*-Q_f^-1)/(R*z_f*u_1-phi_min^*)"
+      },
+      {
+        "token_len": 201,
+        "eq_len": 110,
+        "row_id": 1655,
+        "equation_preview": "F=(a_i-P_f^*-F_2)/(2/3*m-tau*a^-1)+int(1/2+N_A+I^n+V+P)dx-(4+tau+h_net+R_min)^3-(V)/(h*P_0*epsilon_rms*lambda)"
+      }
+    ],
+    "split": "train",
+    "tokenizer": "hierarchical"
+  },
+  {
+    "file": "tokenized_val_bpe.csv",
+    "path": "HPC pipeline\\data\\splits\\tokenized_val_bpe.csv",
+    "n_rows": 1000,
+    "token_count": {
+      "n": 1000,
+      "mean": 7.696,
+      "std": 6.959167623646816,
+      "min": 2.0,
+      "max": 40.0,
+      "p50": 5.0,
+      "p90": 20.0,
+      "p99": 31.0
+    },
+    "equation_chars": {
+      "n": 1000,
+      "mean": 22.859999999999985,
+      "std": 20.982198470433275,
+      "min": 3.0,
+      "max": 130.0,
+      "p50": 16.0,
+      "p90": 55.0,
+      "p99": 96.0
+    },
+    "avg_chars_per_token": 2.9703742203742185,
+    "vocab_size": 730,
+    "unique_tokens_per_equation": {
+      "n": 1000,
+      "mean": 7.534999999999995,
+      "std": 6.603815971495977,
+      "min": 2.0,
+      "max": 33.0
+    },
+    "corr_token_vs_eq_chars": 0.9726461504779054,
+    "corr_token_vs_complexity": 0.7046655117346812,
+    "by_complexity": [
+      {
+        "complexity": 1,
+        "n": 211,
+        "avg_tokens": 2.876777251184834
+      },
+      {
+        "complexity": 2,
+        "n": 196,
+        "avg_tokens": 4.75
+      },
+      {
+        "complexity": 3,
+        "n": 193,
+        "avg_tokens": 5.658031088082901
+      },
+      {
+        "complexity": 4,
+        "n": 195,
+        "avg_tokens": 5.441025641025641
+      },
+      {
+        "complexity": 5,
+        "n": 205,
+        "avg_tokens": 19.536585365853657
+      }
+    ],
+    "top_k_longest_by_tokens": [
+      {
+        "token_len": 40,
+        "eq_len": 130,
+        "row_id": 1525,
+        "equation_preview": "I_net=sin(v_avg+m_max)-(c*z*V_avg^*-delta_i)/(3+e-beta_max^3*E)-(4/3+N_A*sigma_f^*-gamma_i)/(P*sigma-delta_avg)+cos(g_max^--alpha)"
+      },
+      {
+        "token_len": 35,
+        "eq_len": 93,
+        "row_id": 8425,
+        "equation_preview": "g_avg=sqrt(R+u+V+Q^2)-(1*Q-V^-)/(G+T*R*delta^-1)+(4-r^n-alpha^3)/(pi*h)-cos(h+B_max+gamma^-1)"
+      },
+      {
+        "token_len": 35,
+        "eq_len": 98,
+        "row_id": 8960,
+        "equation_preview": "b_0=(k+d+u_f+a_0^2)^n+cos(b_max+theta-n_net)+(3*pi*lambda_min+n*beta)/(N_A*beta)-ln(4/3+h-tau+b-d)"
+      },
+      {
+        "token_len": 34,
+        "eq_len": 92,
+        "row_id": 4570,
+        "equation_preview": "Q_avg=exp(k+alpha_min+v+c_i)+(2+pi*d+h_max)/(2*pi-T^2-c_max^3+z^2)-R*t_min+Q+C_min-(c+p_i)^n"
+      },
+      {
+        "token_len": 33,
+        "eq_len": 109,
+        "row_id": 2965,
+        "equation_preview": "C=(4/3+N_A+sigma_rms)^-1+2/3*h*A_i^n-delta-B_2-sin(1/3+F_max+t_i)+(N_A-gamma*w*n_2)/(1/3*N_A*lambda_0+beta^2)"
+      },
+      {
+        "token_len": 33,
+        "eq_len": 111,
+        "row_id": 6525,
+        "equation_preview": "L=1/3*omega_1^circ*m*a_1-tan(2/3+B+A_max+sigma)-sqrt(2+N_A+C^2+v^-1+beta)-(4/3-c+beta*P_rms^circ*tau_0)/(4/3-v)"
+      },
+      {
+        "token_len": 33,
+        "eq_len": 89,
+        "row_id": 3230,
+        "equation_preview": "T=R+v-cos(T^-)-(1/3+R+lambda_1+a_2)/(G*s_max*W^+-theta_max^-1)+(k*c-y_1)/(c-V_rms*Q-mu_2)"
+      },
+      {
+        "token_len": 32,
+        "eq_len": 97,
+        "row_id": 3240,
+        "equation_preview": "b_0=(2+k+P_net)^n-sqrt(2/3+u_0+tau+L_2)+ln(R-n*alpha_i)-(2/3-G-psi^n*V+epsilon_2)/(4-F_1-omega_f)"
+      },
+      {
+        "token_len": 32,
+        "eq_len": 78,
+        "row_id": 3595,
+        "equation_preview": "F_avg=(1+pi+t)/(4*e-P*v^circ)+(4*c*p_i-p_1+v)/(G+V)+(2/3+mu_max*T-V)/(3+G*V*A)"
+      },
+      {
+        "token_len": 31,
+        "eq_len": 81,
+        "row_id": 7285,
+        "equation_preview": "n=(4-c*P+C)/(4*c-r*mu_min+y_i)+(2+P)^-1+(R*a*h)/(N_A-b)-tan(1/2+h+R^circ+delta_i)"
+      },
+      {
+        "token_len": 31,
+        "eq_len": 103,
+        "row_id": 5520,
+        "equation_preview": "y=(T+p_1^*)/(4/3+h+phi)-(R+psi_0+t_min^circ)^n+1+alpha-B_net+P_rms^circ-sum_j=0^n(4/3+pi+F_net+mu+beta)"
+      },
+      {
+        "token_len": 31,
+        "eq_len": 105,
+        "row_id": 4600,
+        "equation_preview": "h=(e+Q_1^-1-epsilon-t)/(4-e*R-theta_2-delta_rms)+dA/dx-sum_j=1^inf(2+c+m+theta)-int(1/2+v^circ+m_f+E_2)dx"
+      },
+      {
+        "token_len": 31,
+        "eq_len": 89,
+        "row_id": 4800,
+        "equation_preview": "b_0=(epsilon_1+b+v)^n-1*N_A-beta_f+a_1-(N_A*A_1)/(1/2+a^n-Q_avg^-1+T_f)+(1/2+Q+omega+C)^2"
+      },
+      {
+        "token_len": 31,
+        "eq_len": 94,
+        "row_id": 8950,
+        "equation_preview": "x_rms=sum_k=1^N(e+beta_min)-1/2*N_A*I+lambda+(pi-c-lambda_avg)/(3-e+z*z-w)-(h*tau^3*F_i)/(R+R)"
+      },
+      {
+        "token_len": 30,
+        "eq_len": 96,
+        "row_id": 1885,
+        "equation_preview": "z_min=(4/3+R+w_max+s+P)^n+1-(1/2-N_A-A_avg+x-E_f)/(2+G-omega_rms^**A_avg)-sum_j=0^n(s+R_net+v_i)"
+      },
+      {
+        "token_len": 30,
+        "eq_len": 97,
+        "row_id": 8360,
+        "equation_preview": "Q=(2+C+mu_min)^n-(N_A+psi^3+omega_1+v_min^*)^1/2-log(2+h+A+theta_min^*+C_avg^+)+(4+P_max+u^n)^n+1"
+      },
+      {
+        "token_len": 30,
+        "eq_len": 88,
+        "row_id": 1240,
+        "equation_preview": "F_i=cos(1/3*R+d_f+Q)-sum_j=0^N(4/3+G+E^++a+x_0^n)-epsilon^2-int_L^inf(2+G+y+sigma+r_2)dt"
+      },
+      {
+        "token_len": 30,
+        "eq_len": 99,
+        "row_id": 7695,
+        "equation_preview": "v=sum_n=1^inf(3+sigma^-1)-g^3+theta_avg-sqrt(F_avg+lambda^2)-(4*N_A*tau^-1+psi*psi_net)/(1/3+G*m*v)"
+      },
+      {
+        "token_len": 30,
+        "eq_len": 85,
+        "row_id": 2970,
+        "equation_preview": "E=ln(c+psi+tau^circ+c)+int(2+pi+y_net^-1+tau_avg^2)dt-(R-x^+)/(e-A^--tau)-(c+h_max)^3"
+      },
+      {
+        "token_len": 29,
+        "eq_len": 80,
+        "row_id": 3875,
+        "equation_preview": "T=cos(c_min+phi)+G-psi_min^circ+g+(pi*I_min+V_max+R_avg)/(e*B_i-v_max-R)+N_A-V-w"
+      }
+    ],
+    "split": "val",
+    "tokenizer": "bpe"
+  },
+  {
+    "file": "tokenized_val_char.csv",
+    "path": "HPC pipeline\\data\\splits\\tokenized_val_char.csv",
+    "n_rows": 1000,
+    "token_count": {
+      "n": 1000,
+      "mean": 22.859999999999985,
+      "std": 20.982198470433275,
+      "min": 3.0,
+      "max": 130.0,
+      "p50": 16.0,
+      "p90": 55.0,
+      "p99": 96.0
+    },
+    "equation_chars": {
+      "n": 1000,
+      "mean": 22.859999999999985,
+      "std": 20.982198470433275,
+      "min": 3.0,
+      "max": 130.0,
+      "p50": 16.0,
+      "p90": 55.0,
+      "p99": 96.0
+    },
+    "avg_chars_per_token": 1.0,
+    "vocab_size": 55,
+    "unique_tokens_per_equation": {
+      "n": 1000,
+      "mean": 14.61699999999999,
+      "std": 8.169887273277284,
+      "min": 2.0,
+      "max": 40.0
+    },
+    "corr_token_vs_eq_chars": 1.0,
+    "corr_token_vs_complexity": 0.7324190446145741,
+    "by_complexity": [
+      {
+        "complexity": 1,
+        "n": 211,
+        "avg_tokens": 6.843601895734597
+      },
+      {
+        "complexity": 2,
+        "n": 196,
+        "avg_tokens": 13.48469387755102
+      },
+      {
+        "complexity": 3,
+        "n": 193,
+        "avg_tokens": 17.098445595854923
+      },
+      {
+        "complexity": 4,
+        "n": 195,
+        "avg_tokens": 18.943589743589744
+      },
+      {
+        "complexity": 5,
+        "n": 205,
+        "avg_tokens": 57.458536585365856
+      }
+    ],
+    "top_k_longest_by_tokens": [
+      {
+        "token_len": 130,
+        "eq_len": 130,
+        "row_id": 1525,
+        "equation_preview": "I_net=sin(v_avg+m_max)-(c*z*V_avg^*-delta_i)/(3+e-beta_max^3*E)-(4/3+N_A*sigma_f^*-gamma_i)/(P*sigma-delta_avg)+cos(g_max^--alpha)"
+      },
+      {
+        "token_len": 111,
+        "eq_len": 111,
+        "row_id": 6525,
+        "equation_preview": "L=1/3*omega_1^circ*m*a_1-tan(2/3+B+A_max+sigma)-sqrt(2+N_A+C^2+v^-1+beta)-(4/3-c+beta*P_rms^circ*tau_0)/(4/3-v)"
+      },
+      {
+        "token_len": 109,
+        "eq_len": 109,
+        "row_id": 2965,
+        "equation_preview": "C=(4/3+N_A+sigma_rms)^-1+2/3*h*A_i^n-delta-B_2-sin(1/3+F_max+t_i)+(N_A-gamma*w*n_2)/(1/3*N_A*lambda_0+beta^2)"
+      },
+      {
+        "token_len": 105,
+        "eq_len": 105,
+        "row_id": 4600,
+        "equation_preview": "h=(e+Q_1^-1-epsilon-t)/(4-e*R-theta_2-delta_rms)+dA/dx-sum_j=1^inf(2+c+m+theta)-int(1/2+v^circ+m_f+E_2)dx"
+      },
+      {
+        "token_len": 103,
+        "eq_len": 103,
+        "row_id": 5520,
+        "equation_preview": "y=(T+p_1^*)/(4/3+h+phi)-(R+psi_0+t_min^circ)^n+1+alpha-B_net+P_rms^circ-sum_j=0^n(4/3+pi+F_net+mu+beta)"
+      },
+      {
+        "token_len": 99,
+        "eq_len": 99,
+        "row_id": 7695,
+        "equation_preview": "v=sum_n=1^inf(3+sigma^-1)-g^3+theta_avg-sqrt(F_avg+lambda^2)-(4*N_A*tau^-1+psi*psi_net)/(1/3+G*m*v)"
+      },
+      {
+        "token_len": 98,
+        "eq_len": 98,
+        "row_id": 8960,
+        "equation_preview": "b_0=(k+d+u_f+a_0^2)^n+cos(b_max+theta-n_net)+(3*pi*lambda_min+n*beta)/(N_A*beta)-ln(4/3+h-tau+b-d)"
+      },
+      {
+        "token_len": 98,
+        "eq_len": 98,
+        "row_id": 7215,
+        "equation_preview": "n=sum_k=0^N(1/2+R+c+epsilon_2+V_min)-sin(1/2*sigma)+(N_A+theta+alpha_1+z^circ)^2-2/3*R*W_i^2+w_rms"
+      },
+      {
+        "token_len": 97,
+        "eq_len": 97,
+        "row_id": 8360,
+        "equation_preview": "Q=(2+C+mu_min)^n-(N_A+psi^3+omega_1+v_min^*)^1/2-log(2+h+A+theta_min^*+C_avg^+)+(4+P_max+u^n)^n+1"
+      },
+      {
+        "token_len": 97,
+        "eq_len": 97,
+        "row_id": 3240,
+        "equation_preview": "b_0=(2+k+P_net)^n-sqrt(2/3+u_0+tau+L_2)+ln(R-n*alpha_i)-(2/3-G-psi^n*V+epsilon_2)/(4-F_1-omega_f)"
+      },
+      {
+        "token_len": 96,
+        "eq_len": 96,
+        "row_id": 1885,
+        "equation_preview": "z_min=(4/3+R+w_max+s+P)^n+1-(1/2-N_A-A_avg+x-E_f)/(2+G-omega_rms^**A_avg)-sum_j=0^n(s+R_net+v_i)"
+      },
+      {
+        "token_len": 94,
+        "eq_len": 94,
+        "row_id": 8950,
+        "equation_preview": "x_rms=sum_k=1^N(e+beta_min)-1/2*N_A*I+lambda+(pi-c-lambda_avg)/(3-e+z*z-w)-(h*tau^3*F_i)/(R+R)"
+      },
+      {
+        "token_len": 93,
+        "eq_len": 93,
+        "row_id": 8425,
+        "equation_preview": "g_avg=sqrt(R+u+V+Q^2)-(1*Q-V^-)/(G+T*R*delta^-1)+(4-r^n-alpha^3)/(pi*h)-cos(h+B_max+gamma^-1)"
+      },
+      {
+        "token_len": 93,
+        "eq_len": 93,
+        "row_id": 900,
+        "equation_preview": "P=(4*G*d*t_avg)/(1/2+delta^-)+(4/3+R*y^-+alpha_1)/(1/3+alpha+omega_1+a)+(4/3+N_A+w+z_max+z)^2"
+      },
+      {
+        "token_len": 92,
+        "eq_len": 92,
+        "row_id": 4570,
+        "equation_preview": "Q_avg=exp(k+alpha_min+v+c_i)+(2+pi*d+h_max)/(2*pi-T^2-c_max^3+z^2)-R*t_min+Q+C_min-(c+p_i)^n"
+      },
+      {
+        "token_len": 91,
+        "eq_len": 91,
+        "row_id": 9095,
+        "equation_preview": "L_rms=(1+E_f^2+V)^n+1+(1/2+N_A+a)^2-sum_n=0^n(2+k+theta^-+g_f+L)+log(2/3*alpha*sigma*z_min)"
+      },
+      {
+        "token_len": 89,
+        "eq_len": 89,
+        "row_id": 3230,
+        "equation_preview": "T=R+v-cos(T^-)-(1/3+R+lambda_1+a_2)/(G*s_max*W^+-theta_max^-1)+(k*c-y_1)/(c-V_rms*Q-mu_2)"
+      },
+      {
+        "token_len": 89,
+        "eq_len": 89,
+        "row_id": 4800,
+        "equation_preview": "b_0=(epsilon_1+b+v)^n-1*N_A-beta_f+a_1-(N_A*A_1)/(1/2+a^n-Q_avg^-1+T_f)+(1/2+Q+omega+C)^2"
+      },
+      {
+        "token_len": 88,
+        "eq_len": 88,
+        "row_id": 1240,
+        "equation_preview": "F_i=cos(1/3*R+d_f+Q)-sum_j=0^N(4/3+G+E^++a+x_0^n)-epsilon^2-int_L^inf(2+G+y+sigma+r_2)dt"
+      },
+      {
+        "token_len": 87,
+        "eq_len": 87,
+        "row_id": 6645,
+        "equation_preview": "v=(pi-a-v_min-P_i^circ)/(w+r_max)+(1/2+e+z+beta+t)^2-(G+alpha*lambda_min*b_2)/(3+G-w_0)"
+      }
+    ],
+    "split": "val",
+    "tokenizer": "char"
+  },
+  {
+    "file": "tokenized_val_hierarchical.csv",
+    "path": "HPC pipeline\\data\\splits\\tokenized_val_hierarchical.csv",
+    "n_rows": 1000,
+    "token_count": {
+      "n": 1000,
+      "mean": 40.648999999999965,
+      "std": 34.07675195824896,
+      "min": 7.0,
+      "max": 205.0,
+      "p50": 31.0,
+      "p90": 93.0,
+      "p99": 155.0
+    },
+    "equation_chars": {
+      "n": 1000,
+      "mean": 22.859999999999985,
+      "std": 20.982198470433275,
+      "min": 3.0,
+      "max": 130.0,
+      "p50": 16.0,
+      "p90": 55.0,
+      "p99": 96.0
+    },
+    "avg_chars_per_token": 0.5623754581908535,
+    "vocab_size": 79,
+    "unique_tokens_per_equation": {
+      "n": 1000,
+      "mean": 21.678,
+      "std": 8.932642840061847,
+      "min": 6.0,
+      "max": 48.0
+    },
+    "corr_token_vs_eq_chars": 0.896039017465497,
+    "corr_token_vs_complexity": 0.6719393484673278,
+    "by_complexity": [
+      {
+        "complexity": 1,
+        "n": 211,
+        "avg_tokens": 15.398104265402843
+      },
+      {
+        "complexity": 2,
+        "n": 196,
+        "avg_tokens": 27.408163265306122
+      },
+      {
+        "complexity": 3,
+        "n": 193,
+        "avg_tokens": 36.19170984455958
+      },
+      {
+        "complexity": 4,
+        "n": 195,
+        "avg_tokens": 30.45128205128205
+      },
+      {
+        "complexity": 5,
+        "n": 205,
+        "avg_tokens": 93.1951219512195
+      }
+    ],
+    "top_k_longest_by_tokens": [
+      {
+        "token_len": 205,
+        "eq_len": 109,
+        "row_id": 2965,
+        "equation_preview": "C=(4/3+N_A+sigma_rms)^-1+2/3*h*A_i^n-delta-B_2-sin(1/3+F_max+t_i)+(N_A-gamma*w*n_2)/(1/3*N_A*lambda_0+beta^2)"
+      },
+      {
+        "token_len": 202,
+        "eq_len": 130,
+        "row_id": 1525,
+        "equation_preview": "I_net=sin(v_avg+m_max)-(c*z*V_avg^*-delta_i)/(3+e-beta_max^3*E)-(4/3+N_A*sigma_f^*-gamma_i)/(P*sigma-delta_avg)+cos(g_max^--alpha)"
+      },
+      {
+        "token_len": 201,
+        "eq_len": 111,
+        "row_id": 6525,
+        "equation_preview": "L=1/3*omega_1^circ*m*a_1-tan(2/3+B+A_max+sigma)-sqrt(2+N_A+C^2+v^-1+beta)-(4/3-c+beta*P_rms^circ*tau_0)/(4/3-v)"
+      },
+      {
+        "token_len": 189,
+        "eq_len": 97,
+        "row_id": 3240,
+        "equation_preview": "b_0=(2+k+P_net)^n-sqrt(2/3+u_0+tau+L_2)+ln(R-n*alpha_i)-(2/3-G-psi^n*V+epsilon_2)/(4-F_1-omega_f)"
+      },
+      {
+        "token_len": 187,
+        "eq_len": 98,
+        "row_id": 8960,
+        "equation_preview": "b_0=(k+d+u_f+a_0^2)^n+cos(b_max+theta-n_net)+(3*pi*lambda_min+n*beta)/(N_A*beta)-ln(4/3+h-tau+b-d)"
+      },
+      {
+        "token_len": 185,
+        "eq_len": 97,
+        "row_id": 8360,
+        "equation_preview": "Q=(2+C+mu_min)^n-(N_A+psi^3+omega_1+v_min^*)^1/2-log(2+h+A+theta_min^*+C_avg^+)+(4+P_max+u^n)^n+1"
+      },
+      {
+        "token_len": 175,
+        "eq_len": 92,
+        "row_id": 4570,
+        "equation_preview": "Q_avg=exp(k+alpha_min+v+c_i)+(2+pi*d+h_max)/(2*pi-T^2-c_max^3+z^2)-R*t_min+Q+C_min-(c+p_i)^n"
+      },
+      {
+        "token_len": 165,
+        "eq_len": 89,
+        "row_id": 4800,
+        "equation_preview": "b_0=(epsilon_1+b+v)^n-1*N_A-beta_f+a_1-(N_A*A_1)/(1/2+a^n-Q_avg^-1+T_f)+(1/2+Q+omega+C)^2"
+      },
+      {
+        "token_len": 161,
+        "eq_len": 87,
+        "row_id": 6645,
+        "equation_preview": "v=(pi-a-v_min-P_i^circ)/(w+r_max)+(1/2+e+z+beta+t)^2-(G+alpha*lambda_min*b_2)/(3+G-w_0)"
+      },
+      {
+        "token_len": 161,
+        "eq_len": 83,
+        "row_id": 7120,
+        "equation_preview": "z_1=ln(2+e+s_avg+lambda_min^2+s)+(1/3+h-epsilon^circ-alpha*v_avg)/(N_A*g*a_avg+p_f)"
+      },
+      {
+        "token_len": 155,
+        "eq_len": 80,
+        "row_id": 3875,
+        "equation_preview": "T=cos(c_min+phi)+G-psi_min^circ+g+(pi*I_min+V_max+R_avg)/(e*B_i-v_max-R)+N_A-V-w"
+      },
+      {
+        "token_len": 155,
+        "eq_len": 77,
+        "row_id": 7185,
+        "equation_preview": "L=sin(e+omega_min+lambda^3+delta)+int(lambda+gamma^circ)dV-(pi*V_1+d*B)/(c*V)"
+      },
+      {
+        "token_len": 153,
+        "eq_len": 83,
+        "row_id": 5605,
+        "equation_preview": "p=(3*e-omega+beta_max+Q_max)/(T*b_min)+(4/3+k+E_f+E+r^n)^2-log(3+G+a_2+epsilon+g)+A"
+      },
+      {
+        "token_len": 151,
+        "eq_len": 103,
+        "row_id": 5520,
+        "equation_preview": "y=(T+p_1^*)/(4/3+h+phi)-(R+psi_0+t_min^circ)^n+1+alpha-B_net+P_rms^circ-sum_j=0^n(4/3+pi+F_net+mu+beta)"
+      },
+      {
+        "token_len": 147,
+        "eq_len": 96,
+        "row_id": 1885,
+        "equation_preview": "z_min=(4/3+R+w_max+s+P)^n+1-(1/2-N_A-A_avg+x-E_f)/(2+G-omega_rms^**A_avg)-sum_j=0^n(s+R_net+v_i)"
+      },
+      {
+        "token_len": 147,
+        "eq_len": 81,
+        "row_id": 1230,
+        "equation_preview": "p=k-v+v-(N_A+I-I_max*omega_avg)/(e*alpha_rms-C_min-r^n)-dg/dx-(1+h+sigma+P+F_1)^n"
+      },
+      {
+        "token_len": 145,
+        "eq_len": 81,
+        "row_id": 7285,
+        "equation_preview": "n=(4-c*P+C)/(4*c-r*mu_min+y_i)+(2+P)^-1+(R*a*h)/(N_A-b)-tan(1/2+h+R^circ+delta_i)"
+      },
+      {
+        "token_len": 145,
+        "eq_len": 79,
+        "row_id": 270,
+        "equation_preview": "m=(R+v-I+tau^n)/(2+pi*gamma_min^2+lambda)-2/3-psi*R*W_net+sin(k+n+z_rms^circ+a)"
+      },
+      {
+        "token_len": 145,
+        "eq_len": 77,
+        "row_id": 1760,
+        "equation_preview": "T=(1*gamma_rms*psi_f)/(2/3+k+lambda+I_0+psi)+R*tau_2+h-a_net^+-b-theta_2^circ"
+      },
+      {
+        "token_len": 143,
+        "eq_len": 75,
+        "row_id": 3250,
+        "equation_preview": "E=log(1-c+t^circ+c_rms)-w-sqrt(1+b_0^-1+psi+v_min)+(2-beta^-1+g^circ)/(2*C)"
+      }
+    ],
+    "split": "val",
+    "tokenizer": "hierarchical"
+  }
+]

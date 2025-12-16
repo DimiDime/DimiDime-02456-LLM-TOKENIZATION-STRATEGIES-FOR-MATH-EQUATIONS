@@ -1,0 +1,2 @@
+vocab_path,vocab_file_size_mb,vocab_build_time_sec,vocab_num_tokens
+HPC pipeline/data/vocabulary/vocab_char.json,0.000638,0.004968,56

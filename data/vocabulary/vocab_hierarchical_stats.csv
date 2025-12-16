@@ -1,0 +1,2 @@
+vocab_path,vocab_file_size_mb,vocab_build_time_sec,vocab_num_tokens
+HPC pipeline/data/vocabulary/vocab_hierarchical.json,0.001764,0.01441,84
